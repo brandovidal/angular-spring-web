@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+a {
+  text-decoration: none !important;
+}
+.mpointer {
+  cursor: pointer;
+}
+
+.swal2-confirm {
+  background: #233240 !important;
+  color: white !important;
+  transition: 0.5s all ease;
+  padding: 0.4rem 0.5rem;
+  font-weight: 400;
+  font-size: 0.85rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swal2-confirm:hover {
+  color: white;
+  background: #233240 !important;
+  border-color: #233240;
+}
+.swal2-cancel {
+  background: transparent !important;
+  color: #727272 !important;
+  transition: 0.5s all ease;
+  padding: 0.4rem 0.5rem;
+  font-weight: 400;
+  font-size: 0.85rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swal2-cancel:hover {
+  color: #233240;
+  background: rgba(0, 0, 0, 0.1) !important;
+  border-color: transparent;
+  font-weight: 400;
+}
